@@ -1,0 +1,6 @@
+# Hylätään kaikki tiedostot joiden pääte on tmp
+*.tmp
+
+# Hylätään hakemistot __pycache__ ja .pytest_cache
+__pycache__/
+.pytest_cache/
