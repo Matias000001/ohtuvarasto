@@ -1,6 +1,7 @@
-# Hylätään kaikki tiedostot joiden pääte on tmp
+# Hylätään tiedostot *.tmp yms
 *.tmp
-
-# Hylätään hakemistot __pycache__ ja .pytest_cache
+.coverage
+# Hylätään hakemistot __pycache__, .pytest_cache, htmlcov
 __pycache__/
 .pytest_cache/
+htmlcov
